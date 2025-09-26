@@ -68,11 +68,11 @@ button:focus-visible {
 }
 
 .green {
-  background-color: green;
+  background-color: rgba(0, 200, 0, 0.8);
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgba(255, 215, 0, 0.8);
 }
 
 .guesses {
@@ -98,5 +98,6 @@ button:focus-visible {
 .guesses div {
   border: 3px solid black;
   border-radius: 5px;
-  width: 50px;
+  width:50px;
+  height: 50px;
 }
