@@ -29,7 +29,7 @@ function App() {
   }, [guesses])
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setGuess(e.target.value)
+    setGuess(e.target.value.toLowerCase())
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
